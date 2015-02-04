@@ -8,6 +8,15 @@ h2 {
     text-align: center;
 }
 
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+button:hover{
+  background-color: transparent;
+}
+
 .main-photo{
     border-style: inset;
     border-color: #FA6900;
