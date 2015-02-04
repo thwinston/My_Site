@@ -1,0 +1,188 @@
+h1 {
+font-size: 24px;
+font-weight: bold;
+color: #FA6900;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main-photo{
+    border-style: inset;
+    border-color: #FA6900;
+    border-width: 5px;
+}
+
+body {
+    font-style:normal;
+    background-color:#99FF99;
+    font-family: Verdana;
+}
+
+a{
+    color: #FA6900;
+}
+
+p{
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: #FFFFEE;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.header {
+    
+}
+
+.welcometext{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    position: absolute;
+    left: 29%;
+    top: 50px;
+}
+
+}
+.navigation li {
+    display:inline-block;
+    margin:80px;
+    font-size: 24px;
+    
+}
+
+.linkie {
+    border-style: inset;
+    border-width: 7px;
+    border-color: #FA6900;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.possibleAnswers{
+    background-color: #FFFFEE;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: #FA6900;
+}
+
+.greeting {
+    font-size: 16px;
+}
+
+.members{
+    background-color: #FFFFEE;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: #FA6900;
+    position: absolute;
+    top: 170px;
+}
+
+.possibleAnswers{
+    float: right;
+    margin-right: 350px;
+}
+
+.game{
+    float: left;
+}
+
+.question-box {
+    margin-bottom: 12px;
+}
+
+.correctanswer {
+    color: green;
+}
+
+.incorrectanswer {
+    color: red;
+}
+
+.logo{
+    position: fixed;
+    right: 0px;
+}
+
+.content{
+    display:flex;
+}
+nav {
+  background-color:#2C5463;
+  height:40px;
+}
+ 
+.pagelogo {
+    border-color: #2C5463;
+    border-width: 20px;
+    border-style: solid;
+    align-content: right;
+}
+ 
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+ 
+}
+ 
+nav li ul { 
+  display: none; 
+}
+ 
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 15px 3px 15px;
+  background: #2C5463;
+  color: #ffffff;  
+  margin-left: 1px;
+  white-space: nowrap;
+  height:30px; /* Width and height of top-level nav items */
+  width:90px;
+  text-align:center;
+ 
+}
+ 
+nav ul li a:hover { 
+  background: #617F8A; 
+}
+ 
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height:30px;
+}
+ 
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+ 
+}
+ 
+nav li:hover a { 
+  background: #3A464F; 
+  height:30px; /* Height of lower-level nav items is shorter than main level */
+}
+ 
+nav li:hover li a:hover { 
+  background: #95A9B1; 
+}
+ 
+nav ul li ul li a {
+    text-align:left; /* Top-level items are centered, but nested list items are left-aligned */
+}
